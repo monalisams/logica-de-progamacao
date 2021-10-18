@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var anoDaColonizacao = 1500;
+    var anoAtual = 2021;
+
+    var geracoes = ((anoAtual - anoDaColonizacao)/28)
+
+    mostra("A quantidade de geração até hoje é " + Math.round(geracoes));
+    pulaLinha();
+</script>
